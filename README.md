@@ -1,94 +1,101 @@
+Healthcare Operations Dashboard
+1. Live Application
 
-# Healthcare Operations Intelligence Dashboard
+   Live App:
+   https://meghana-healthcare-operations-dashboard.streamlit.app/
 
-A Streamlit-based dashboard for analyzing healthcare operations, patient demographics, clinical trends, operational efficiency, and staffing optimization.
+2. Project Overview
 
-## Features
-- Executive Overview with key KPIs  
-- Patient Demographics & Demand Analysis  
-- Clinical & Disease Intelligence  
-- Operational Efficiency & Capacity  
-- Staffing & Resource Optimization  
-- Global filters (date, department, demographics)  
-- Dark/Light theme toggle  
-- Performance optimization using caching  
-- Operational alerts, patient journey timeline, capacity planning simulator  
-- PDF export for selected dashboard views  
+   The Healthcare Operations Dashboard is a data-driven web application built using Streamlit.
+   It transforms raw hospital operational data into interactive visual insights to support effective decision-making in healthcare management.
 
-## Tech Stack
-- Python  
-- Streamlit  
-- Pandas  
-- Plotly  
+   This application helps hospital administrators and stakeholders monitor, analyze, and optimize operational performance.
 
-## Project Structure
-├── app.py
-├── myPages/
-│ ├── page1.py
-│ ├── page2.py
-│ ├── page3.py
-│ ├── page4.py
-│ ├── page5.py
-| ├── page6.py
-│ └── data_loader.py
-├── data/
-│ └── dataFinal.xlsx
-├── .streamlit/
-│ └── config.toml
-├── Agile_document/
-│ ├── G2_Defence_Tracker.xls
-│ ├── G2_Unit_testplan.xls
-│ └── Priyanshi_agile_document.xls
-├── .gitignore
-└── README.md
+3. Project Objectives
 
+   This dashboard is designed to:
 
-## How to Run Locally
-```bash
-# (Optional) Create and activate virtual environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
+   Monitor hospital operational performance
 
-# Install dependencies
-pip install -r requirements.txt
+   Analyze patient flow and demographics
 
-# Run the app
-streamlit run app.py
+   Identify clinical and disease trends
 
-Data
+   Track bed occupancy and capacity utilization
 
-Dataset used: data/dataFinal.xlsx
+   Support staffing and workforce planning
 
-Ensure the file is present in the data/ folder before running the app.
+4. Key Features
 
-Documentation
+   Multi-page interactive dashboard
 
-Agile documentation (product backlog, sprint backlog, tasks, impediments, retrospectives) is available at:
+   KPI-based hospital performance tracking
 
-Agile_document/Priyanshi_agile_document.xls
+   Patient admission & demographic analysis
 
-Contributors
+   Clinical and disease trend visualization
 
-Group Project (Internship)
+   Capacity and resource utilization insights
 
-Individual contributions tracked via Agile documentation
+   Optimized performance using Streamlit caching
 
-Notes
+5. Technologies Used
 
-venv/ and cache files are intentionally excluded from the repository.
+   Python
 
-.streamlit/config.toml is included to keep UI/theme consistent.
+   Streamlit
 
+   Pandas
 
----
+   NumPy
 
-### Final 2 commands to publish this README
-After pasting this into `README.md`:
+   Plotly
 
-```bash
-git add README.md
-git commit -m "Update README with project overview and setup"
-git push
+   Matplotlib
+
+   Seaborn
+
+   Excel (Dataset)
+
+6. Project Structure
+
+   Healthcare_Operations_Dashboard_
+   │
+   ├── app.py
+   ├── requirements.txt
+   ├── .streamlit/
+   ├── data/
+   ├── myPages/
+   └── Agile_document/
+   
+7. How to Run Locally
+
+   7.1 Install Dependencies
+       pip install -r requirements.txt
+   7.2 Run the Application
+       streamlit run app.py
+   7.3 Open in Browser
+       http://localhost:8501
+       
+8. Dataset Information
+
+   Dataset Type: Excel
+
+   File Location: data/dataFinal.xlsx
+
+   Purpose: Healthcare operational analytics and performance monitoring
+
+9. Development Methodology
+
+   Agile-based development
+
+   Modular multi-page architecture
+
+   Iterative enhancements
+
+   Structured documentation
+
+10. Author
+
+    Meghana Mangali
+    GitHub: https://github.com/meghanamangali
