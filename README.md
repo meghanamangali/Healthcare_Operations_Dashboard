@@ -2,7 +2,7 @@ Healthcare Operations Dashboard
 1. Live Application
 
    Live App:
-   https://meghana-healthcare-operations-dashboard.streamlit.app/
+   https://meghana-healthcare-operations-dashboard.streamlit.app/ 
 
 2. Project Overview
 
